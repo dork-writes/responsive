@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: tomato;
+}
+
+@font-face
+{
+    font-family: repp;
+    src: url("Hontana.ttf");
+}
+
+h1
+{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+.wrapper 
+{
+    padding-top: 20px;
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color:yellow;
+}
+
+.wrapper P
+{
+    background-color:yellow;
+}
+
+
+#amazing
+{
+    background-color: white;
+    border: 2px solid black;
+
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 50px;
+    position: relative;
+    top: 40px;
+    right: 10PX;
+    padding-bottom: 50px;
+}
+
+#ii
+{
+    width:50px;
+    position: relative;
+    top: 200px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dd
+{
+    font-family: repp;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    margin-bottom: 30px;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: tomato;
+}
+
+.m
+{
+    background-color: yellow;
+    font-family: monospace;
+}
+
+@media only screen and (min-width: 768px)
+{
+
+    h1
+    {
+        font-size: 70px;
+    }
+
+    .wrapper 
+    {
+        font-size: 40px;
+    }
+
+    .wrapper P
+    {
+        background-color:yellow;
+    }
+
+
+    #amazing
+    {
+        width: 600px;
+    }
+
+    #ii
+    {
+        width: 100px;
+    }
+
+    #dd
+    {
+        width: 500px;
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 1000px)
+{
+    h1
+    {
+        font-size: 40px;
+    }
+
+    .wrapper
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #dd
+    {
+        padding-top: 40px;
+    }
+
+    #ii
+    {
+        width: 40px;
+    }
+
+    #amazing
+    {
+        width: 400px;
+    }
+}
